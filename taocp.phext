@@ -86,7 +86,47 @@ CMath: The Book of Concrete Mathematics
 
 Third Edition: TEX and METAFONT
 
-see 2.1.1/1.1.1/1.1.13Procedure for Reading TAOCP
+see 2.1.1/1.1.1/1.1.13
+
+Algorithm: logarithm, algorism, Persian textbook - Khwarizm
+
+Algorithm 1.1E: Euclid's Algorithm
+E1. [Find remainder.] Divide m by n and let r be the remainder. (0 <= r < n)
+E2. [Is it zero?] If r == 0, n is the answer
+E3. [Reduce] Set m=n, n=r and return to E1.
+
+Algorithms proceed in order and are numbered according to section and name.
+The square brackets denote a goal for the algorithm step.
+Parentheticals are comments for the reader.
+The algorithm steps describe the computation to complete.
+Knuth's book is older than C, so he needs to disambiguate assignment from equality.
+
+assignment <- (=)
+equality = (==)
+
+In my notes, I'll use modern language conventions instead of his arrow notation.
+Perform an Algorithm!
+
+Algorithm E: m=119, n=544
+
+E0. [Ensure m>=n.] If m < n, exchange m<->n.
+
+119/544 = 0.21875
+544/119 = 4.57143
+119/68 = 1.75
+68/51 = 1.333
+51/17 = 3
+
+Pages 4-6
+
+Algorithms have five specific properties.
+1. Finiteness: they must terminate, otherwise they're just a computational method
+2. Definiteness: Steps are deterministic
+3. Input: An algorithm must have parameters
+4. Output: An algorithm must produce a result
+5. Effectiveness
+
+Procedure for Reading TAOCP
 
 Preface pages xii through xiv introduce the reader to Knuth's humor *and* algorithmic sense. Nice.
 
