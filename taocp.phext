@@ -28,10 +28,10 @@ Pending Material
 2.1.1/1.1.1/1.1.15: Problem Ratings
 2.1.1/1.1.1/1.1.17: Exercises 1-4
 
-2.1.1/1.2.1/1.1.1: Volume 2: Seminumerical algorithms
-2.1.1/1.3.1/1.1.1: Volume 3: Sorting and searching
-2.1.1/1.4.1/1.1.1: Volume 4A: Combinatorial algorithms, Part 1
-2.1.1/1.4.2/1.1.1: Volume 4B: Combinatorial algorithms, Part 2
+2.2.1/1.1.1/1.1.1: Volume 2: Seminumerical algorithms
+2.3.1/1.1.1/1.1.1: Volume 3: Sorting and searching
+2.4.1/1.1.1/1.1.1: Volume 4A: Combinatorial algorithms, Part 1
+2.4.2/1.1.1/1.1.1: Volume 4B: Combinatorial algorithms, Part 2
 
 Knuth Planned
 -------------
@@ -41,7 +41,8 @@ Knuth Planned
 2.1.1/1.4.6/1.1.1 Volume 4F: Combinatorial Algorithms
 2.1.1/1.5.1/1.1.1 Volume 5: Syntactic algorithms
 2.1.1/1.6.1/1.1.1 Volume 6: The theory of context-free languages
-2.1.1/1.7.1/1.1.1 Volume 7: Compiler techniquesVolume 1: Fundamental Algorithms
+2.1.1/1.7.1/1.1.1 Volume 7: Compiler techniquesI'm happy to see Knuth using numbered lists for his section headings.
+Volume 1: Fundamental Algorithms
 
 Lessons
 -------
@@ -143,4 +144,6 @@ function cubed(x) { return x*x*x; }
 
 lol - Fermat's Last Theorem - ChatGPT claims it was solved by Andrew Wiles in 1994.
 
-Volume 2: Seminumerical AlgorithmsVolume 3: Sorting and searchingVolume 4AVolume 4B: 
+Volume 2: Seminumerical Algorithms
+Volume 3: Sorting and searchingVolume 4A: Combinatorial algorithms, Part 1
+Volume 4B: Combinatorial algorithms, Part 2
