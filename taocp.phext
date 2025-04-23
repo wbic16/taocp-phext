@@ -1,0 +1,146 @@
+The Art of Computer Programm, Phextified
+----------------------------------------
+This document provides worked examples and commentary on the Art of Computer Programming. It is assumed that you have a copy of Donald Knuth's volumes to refer to.
+
+The material presented here has been upgraded for the 21st century, to include phext where applicable. If you need a phext-capable editor, try these links below.
+
+Phext Notepad: https://github.com/wbic16/phext-notepad
+Phext Library (Rust): https://github.com/wbic16/libphext-rs
+Phext Library (Node): https://github.com/wbic16/libphext-node
+
+This phext is organized into two separate libraries.
+* Library 1: Meta Tips, Tricks, and Tools
+* Library 2: Direct Commentary and Notes
+* Library 3: Solutions Evolved from Studying TAOCP
+
+Preface
+-------
+I started this path on April 22, 2025. For me, 1975 is either 10 years ago (Back to the Future, Top Gun era), or 50 years ago (present day). My notes make use of modern amenities, such as large language models, ChatGPT, Google, terabytes of disk space, and gigabytes of RAM. Phext was born in the midst of our transition to AI-powered development.
+
+Index
+-----
+1.1.1/1.1.1/1.1.1 The Index
+
+Pending Material
+----------------
+2.1.1/1.1.1/1.1.1: Volume 1: Fundamental Algorithms
+2.1.1/1.1.1/1.1.13: Procedure for Studying/Reading TACOP
+2.1.1/1.1.1/1.1.15: Problem Ratings
+2.1.1/1.1.1/1.1.17: Exercises 1-4
+
+2.1.1/1.2.1/1.1.1: Volume 2: Seminumerical algorithms
+2.1.1/1.3.1/1.1.1: Volume 3: Sorting and searching
+2.1.1/1.4.1/1.1.1: Volume 4A: Combinatorial algorithms, Part 1
+2.1.1/1.4.2/1.1.1: Volume 4B: Combinatorial algorithms, Part 2
+
+Knuth Planned
+-------------
+2.1.1/1.4.3/1.1.1 Volume 4C: Combinatorial Algorithms
+2.1.1/1.4.4/1.1.1 Volume 4D: Combinatorial Algorithms
+2.1.1/1.4.5/1.1.1 Volume 4E: Combinatorial Algorithms
+2.1.1/1.4.6/1.1.1 Volume 4F: Combinatorial Algorithms
+2.1.1/1.5.1/1.1.1 Volume 5: Syntactic algorithms
+2.1.1/1.6.1/1.1.1 Volume 6: The theory of context-free languages
+2.1.1/1.7.1/1.1.1 Volume 7: Compiler techniquesVolume 1: Fundamental Algorithms
+
+Lessons
+-------
+Preface:
+* You should have written at least 4 programs on 1 computer. [OK]
+* You should be familiar with high school algebra [OK]
+* You can benefit from understanding calculus and knowing how to study [OK]
+
+Notes
+-----
+Nonnumerical Analysis started in 1962. It is Knuth's dream to bring the analysis of algorithms to a broader audience (not just Computer Science PhDs). He organized Volume 1 as a fabric that connects the other volumes together.
+
+His original plan was to write one book. He quickly realized that many books were necessary, and that the field of computer science was advancing exponentially. He pivoted to ensuring that TAOCP provides a solid foundational skeleton for algorithms.
+
+Chapter 1: Basic ConceptsChapter 2: Information StructuresChapter 3: Random NumbersChapter 4: ArithmeticChapter 5: SortingChapter 6: SearchingChapter 7: Combinatorial SearchingChapter 8: RecursionChapter 9: Lexical Scanning
+Chapter 10: Parsing
+
+Machine-Oriented Languages
+a. closer to reality
+b. short examples
+c. low level details
+d. non-casual users
+e. necessary
+f. timeless
+
+1970: "large and fast" computers :)
+Knuth decided to invent an ideal machine language to write his books against. Good idea.
+
+CACM: Communications of the Association for Computing Machinery
+JACM: Journal of the Association for Computing Machinery
+Comp J: The Computer Journal (British)
+Math Comp: Mathmatics of Computation
+AMM: The American Mathematical Monthly
+SICOMP: SIAM Journal on Computing
+FOCS: IEEE Symposium on Foundations of Computer Science
+SODA: ACM-SIAM Symposium on Discrete Algorithms
+STOC: ACM Symposium on Theory of Computing
+Crelle: Journal of German Mathematics
+
+CMath: The Book of Concrete Mathematics
+
+Third Edition: TEX and METAFONT
+
+see 2.1.1/1.1.1/1.1.13Procedure for Reading TAOCP
+
+Preface pages xii through xiv introduce the reader to Knuth's humor *and* algorithmic sense. Nice.
+
+In case you missed it:
+* you'll be reading TAOCP forever
+* you get to sleep when you're tired
+* you need to enlist the help of your friends
+Ratings
+
+Unlike Dr. Bellman, Knuth has decided to rank his problems beforehand. How magnanimous!
+
+I've paraphrased them below.
+
+00 Very Easy -- So easy your brain can do it
+10 Simple -- So easy ChatGPT can one-shot it
+20 Average -- You can probably solve this with effort
+30 Moderate -- 2+ hours of work
+40 Difficult -- days worth of work
+50 Bellman -- An open research problem
+
+
+Preface Exercises
+
+Summary of Codes
+M: Mathematically-oriented
+HM: Requires "higher math"
+
+00: Immediate
+10: Simple (60s)
+20: Medium (15m)
+30: Moderately Hard
+40: Term Project
+50: Research Problem
+
+Exercises
+
+1. [00] What does rating "M20" mean?
+
+Got it in one, Dr. Knuth. An M20 problem is mathematically-oriented and can be solved in about 15 minutes.
+
+2. [10] Of what value can the exercises in a textbook be to the reader?
+
+15s: Exercises allow you to synthesize both theory and pratice.
+60s: Theory will only get you so far.
+
+3. [14] Prove that 13^3 = 2197. Generalize your answer. [This is a horrible problem we try to avoid in this book...]
+
+60s or so
+
+13*13*13 = 13*169 = 2197. What does he mean by generalize your answer? Write a program that can compute x^3 for any x? OK...
+
+function cubed(x) { return x*x*x; }
+
+4. [HM45] Prove that when n is an integer, n > 2, the equation x^n + y^n + z^n has no solution in positive integers x, y, z.
+
+lol - Fermat's Last Theorem - ChatGPT claims it was solved by Andrew Wiles in 1994.
+
+Volume 2: Seminumerical AlgorithmsVolume 3: Sorting and searchingVolume 4AVolume 4B: 
