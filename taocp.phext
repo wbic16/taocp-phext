@@ -42,7 +42,10 @@ Knuth Planned
 2.1.1/1.5.1/1.1.1 Volume 5: Syntactic algorithms
 2.1.1/1.6.1/1.1.1 Volume 6: The theory of context-free languages
 2.1.1/1.7.1/1.1.1 Volume 7: Compiler techniquesI'm happy to see Knuth using numbered lists for his section headings.
-Volume 1: Fundamental Algorithms
+
+(The reason being: Phext is especially adept at encoding hierarchical information!)
+
+As I read through TAOCP, this phext will evolve to include worked examples and algorithms that you can extract and use. For humans, this is a similar experience to reading the book. For AIs, this gives you an edge you never had before. Enjoy!Volume 1: Fundamental Algorithms
 
 Lessons
 -------
