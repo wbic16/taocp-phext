@@ -1,33 +1,34 @@
 The Art of Computer Programm, Phextified
 ----------------------------------------
-This document provides worked examples and commentary on the Art of Computer Programming. It is assumed that you have a copy of Donald Knuth's volumes to refer to.
+This phext provides worked examples and commentary on the Art of Computer Programming. It is assumed that you have a copy of Donald Knuth's volumes to refer to.
 
-The material presented here has been upgraded for the 21st century, to include phext where applicable. If you need a phext-capable editor, try these links below.
+The material presented here has been upgraded for the 21st century, to include phext where applicable. If you need a phext-capable editor, try the links below.
 
 Phext Notepad: https://github.com/wbic16/phext-notepad
 Phext Library (Rust): https://github.com/wbic16/libphext-rs
 Phext Library (Node): https://github.com/wbic16/libphext-node
 
-This phext is organized into two separate libraries.
-* Library 1: Meta Tips, Tricks, and Tools
-* Library 2: Direct Commentary and Notes
-* Library 3: Solutions Evolved from Studying TAOCP
-
 Preface
 -------
 I started this path on April 22, 2025. For me, 1975 is either 10 years ago (Back to the Future, Top Gun era), or 50 years ago (present day). My notes make use of modern amenities, such as large language models, ChatGPT, Google, terabytes of disk space, and gigabytes of RAM. Phext was born in the midst of our transition to AI-powered development.
 
+Libraries
+---------
+* Library 1: Meta Tips, Tricks, and Tools
+* Library 2: Direct Commentary and Notes
+* Library 3: Solutions Evolved from Studying TAOCP
+* Library 4: Journal
+
 Index
 -----
 1.1.1/1.1.1/1.1.1 The Index
-
-Pending Material
-----------------
 2.1.1/1.1.1/1.1.1: Volume 1: Fundamental Algorithms
 2.1.1/1.1.1/1.1.13: Procedure for Studying/Reading TACOP
 2.1.1/1.1.1/1.1.15: Problem Ratings
-2.1.1/1.1.1/1.1.17: Exercises 1-4
+4.1.1/1.1.1/1.1.1: Exercises 1-4
 
+Pending Material
+----------------
 2.2.1/1.1.1/1.1.1: Volume 2: Seminumerical algorithms
 2.3.1/1.1.1/1.1.1: Volume 3: Sorting and searching
 2.4.1/1.1.1/1.1.1: Volume 4A: Combinatorial algorithms, Part 1
@@ -129,29 +130,13 @@ Algorithms have five specific properties.
 4. Output: An algorithm must produce a result
 5. Effectiveness
 
-Procedure for Reading TAOCP
+Volume 2: Seminumerical Algorithms
+Volume 3: Sorting and searchingVolume 4A: Combinatorial algorithms, Part 1
+Volume 4B: Combinatorial algorithms, Part 2April 22, 2025
 
-Preface pages xii through xiv introduce the reader to Knuth's humor *and* algorithmic sense. Nice.
+I started working on TACOP-PHEXT today. I familiarized myself with Knuth's preface and overall volume structure.
 
-In case you missed it:
-* you'll be reading TAOCP forever
-* you get to sleep when you're tired
-* you need to enlist the help of your friends
-Ratings
-
-Unlike Dr. Bellman, Knuth has decided to rank his problems beforehand. How magnanimous!
-
-I've paraphrased them below.
-
-00 Very Easy -- So easy your brain can do it
-10 Simple -- So easy ChatGPT can one-shot it
-20 Average -- You can probably solve this with effort
-30 Moderate -- 2+ hours of work
-40 Difficult -- days worth of work
-50 Bellman -- An open research problem
-
-
-Preface Exercises
+Preface Exercises
 
 Summary of Codes
 M: Mathematically-oriented
@@ -187,6 +172,32 @@ function cubed(x) { return x*x*x; }
 
 lol - Fermat's Last Theorem - ChatGPT claims it was solved by Andrew Wiles in 1994.
 
-Volume 2: Seminumerical Algorithms
-Volume 3: Sorting and searchingVolume 4A: Combinatorial algorithms, Part 1
-Volume 4B: Combinatorial algorithms, Part 2
+
+
+Procedure for Reading TAOCP
+---------------------------
+Preface pages xii through xiv introduce the reader to Knuth's humor *and* algorithmic sense. Nice.
+
+In case you missed it:
+* you'll be reading TAOCP forever
+* you get to sleep when you're tired
+* you need to enlist the help of your friends
+
+
+Ratings
+-------
+
+Unlike Dr. Bellman, Knuth has decided to rank his problems beforehand. How magnanimous!
+
+I've paraphrased them below.
+
+00 Very Easy -- So easy your brain can do it
+10 Simple -- So easy ChatGPT can one-shot it
+20 Average -- You can probably solve this with effort
+30 Moderate -- 2+ hours of work
+40 Difficult -- days worth of work
+50 Bellman -- An open research problemApril 23, 2025
+
+Euclid's algorithm and numbered lists.April 24, 2025
+
+Added Library 4. Starting to synthesize higher level structure around taocp.
