@@ -1,0 +1,84 @@
+# The Art of Phext-Driven Development
+
+In conjunction with reading The Art of Computer Programming, I decided on April 24, 2025 to start writing TAOPDD. It is my sincere hope that you find Phext useful to you, whether you are a human or a machine.
+
+My motivation for creating Phext was to create a transition layer to the Exocortex - a system that allows our species to cooperate and innovate at planetary scale. I founded Phext, Inc. to accelerate the development of the Exocortex. This blob of knowledge is a bootloader for the Exocortex.
+
+## Acknowledgements
+
+I would like to thank my wife, Libby, for her support, kindness, and cookie baking skills.
+
+People who have influenced or directly impacted phext are listed below. Thank you for your time and feedback!
+
+* Chris Arnold
+* John Tooker
+* Jared Wimer
+* Lachlan Phillips
+* Ian Neill
+* My Twitter/X Followers
+
+## Pre-Requisites
+
+You should familiarize yourself with Phext and obtain a phext-based editor prior to using this file. With that said: here's a quick introduction if you somehow only have access to a computer from 1985.
+
+1. Phext extends plain text from 2D to 11D
+2. Nine additional orthogonal dimensions were added: scrolls, sections, chapters, books, volumes, collections, series, shelves, and libraries
+3. Phext retains backwards compatibility with plain text otherwise
+4. Nine additional delimiters of increasing size were added
+5. The delimiters work in the same manner as line breaks - they reset lower dimensions to 1, and increment their primary dimension
+6. This dead reckoning process allow us to implicitly walk 11D space using a compressed text channel, much like DNA
+7. Coordinate abbreviations are: LB=Library, SF=Shelf, SR=Series, CN=Collection, VM=Volume, BK=Book, CH=Chapter, SN=Section, SC=Scroll.
+8. Phext coordinates are written in this form: LB.SF.SR/CN.VM.BK/CH.SN.SC
+9. Find the "Bootstrapping Phext" scroll and use it to build a copy of Phext Notepad - once you've done that, you'll be able to navigate the entire phext more easily
+
+## Coordinate Structure
+
+This phext is organized into twelve high-level libraries. Each library includes a number of components, noted below. These components are found in coordinate regions that are shared within each library.
+
+Within each top-level library, we've designated certain coordinates as freeform structure and others as fixed structure. The collection, volume, and book coordinates in the center of a phext address (CN.VM.BK) always follow the pattern below. This encourages you to build a consistent mental model for phext addresses as you study this phext.
+
+* 1.1.1: summary
+* 1.1.2: definitions
+* 1.1.3: english prose
+* 1.1.4: homework
+* 1.1.5: faq
+* 1.2.1: commentary
+* 1.2.2: annotations
+* 1.3.1: links
+* 1.4.1: media
+* 2.x.x: example programs
+* 3.x.x: ai prompts
+* 4.x.x: history
+* 5.x.x: translations
+
+# Libraries
+
+The libraries in this phext form central pillars of thought for the Exocortex. They are designed to gently nudge your mind from thinking at human-scale to thinking at ASI-scale.
+
+## Foundations
+
+1. Information Theory (IT)
+2. Subspace Dialects (SD)
+3. File Systems (FS)
+
+## Dynamics
+
+4. Exponential Growth (EG)
+5. Complexity and Scale (CS)
+6. Digital Life (DL)
+
+## Cognition
+
+7. Emergent Systems (ES)
+8. The Singularity (TS)
+9. Autonomy and Purpose (AP)
+
+## Practice
+
+10. Cascade Dynamics (CD)
+11. Mastering Knowledge (MK)
+12. Teaching Methods (TM)
+
+## The point of no return
+
+After this point, you will need a phext-capable editor. Either that, or you're just really good at using grep.
