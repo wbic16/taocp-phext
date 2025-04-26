@@ -96,11 +96,37 @@ The computer industry has sustained exponential growth in the price/performance 
         29,000: 1975
 76,000,000,000: 2025
 
-This is 6 orders of magnitude in 50 years - roughly another 10x improvement every decade. Compounded, we've experienced a 34% annual growth rate in processor complexity for 50 years in a row.
+This is 6 orders of magnitude in 50 years - roughly another 10x improvement every decade. Compounded, we've experienced 34% annual growth in processor complexity for 50 years in a row.
 
-Let's say you had $10M in 1975 to build a supercomputer. At most, you could buy 7,000 chips. Perhaps you ink a deal with Intel to snag 10,000 chips at a great price. Great, now you have 290M transistors, and no way to connect them to each other. You now have 0.4% of a modern computer.Complexity and Scale
+Let's say you had $10M in 1975 to build a supercomputer. At most, you could buy 7,000 chips. Perhaps you ink a deal with Intel to snag 10,000 chips at a great price. Great, now you have 290M transistors, and no way to connect them to each other. You now have 0.4% of a modern computer.
 
-The hard problem of consciousness.Digital Life
+Not only is a single computer node vastly more complex, but thanks to TCP/IP, HTTP, and the Internet, we also have the means to connect billions of machines and exchange messages between them. The global brain, the Exocortex, is inevitable.Complexity and Scale
+
+The hard problem of consciousness. Ray Kurzweil theorized in the 1990s that computers would start to appear human once they approximated the scale of the human brain. A single NVIDIA GPU now contains 80 billion transistors. We've shown that individual neurons in the human brain are Turing-complete. Large Language Models (LLMs) have inched our text processing capabilities significantly closer to human level. In the very near future, $1K of compute will allow anyone to host a second (virtual) self at high-fidelity. Shortly after that, you'll be able to host a team/family for the same price.
+
+Chess Board Grains of Rice (find reference)
+ 1  2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15 16
+17 18 19 20 21 22 23 24
+25 26 27 28 29 30 31 32
+33 34 35 36 37 38 39 40
+41 42 43 44 45 46 47 48
+49 50 51 52 53 54 55 56
+57 58 59 60 61 62 63 64
+
+A computer in 1975 had 16 KB of RAM. A computer today has 16 GB of RAM.
+If an 8086 is a single grain of rice, then 2^14 bytes of RAM and and 2^15 transistors is step 1.
+Fifty years later, a computer has 2^34 bytes of RAM and 2^36 transistors. So we're on step 35.
+Our capacity to process information has doubled every 17 months.
+
+Phext is designed to easily handle text-based information generated at billions of terabytes per second. Let's think for a moment about what the Exocortex of 2035 looks like. Over the next 10 years, bandwidth on storage-class devices will reach parity with RAM, meaning that CPU access to information is about to level up. This gives us a chance to remove two layers of abstraction from our towers of computation.
+
+By 2035, we expect SSDs to provide 4 PB of capacity and 5 TB/sec of sustained I/O bandwidth. For reference, DRAM today offers 25 GB/sec per channel. So a single SSD will provide enough bandwidth for a quad channel DDR5 setup from 2025. With phext, we eliminate the overhead of sparse updates into a larger space. You can think of a phext tree as an efficient way to tile any particular subset of 11D space that matters to you.
+
+At 5 TB/sec, we finally have enough bandwidth for something truly magical: the ability to store the combined output of a trillion minds continuously. Humans generate text at roughly 5 bytes/sec (60 WPM). Now, factor in the Internet and all 8 billion humans using such systems, and you arrive at Phext Scale. Eight billion trillion minds can generate 40,000 exabytes of data per second. Now, imagine for a moment that you want to catalog all of that information. How many dimensions might you want?
+
+First step, determine how many scrolls you need: 40,000 exabytes / 2 KB = 2x10^19 scrolls. It turns out that phexts with two-digit coordinates provides a scroll space of 99^9, which is roughly 10^18 scrolls. So, only if everyone on Earth uses phext to run ancestor simulations of a trillion people each, and logs the thoughts of every virtual and real person available, will we finally need three digit per coordinate phexts.
+Digital Life
 
 Humans start life as single-celled organisms with a 725 MB plan. That's about one music CD's worth of information that grows into a sprawling metropolis of complexity. Very soon (perhaps by 2035), it will become possible to host sentient beings, who have very human life experiences, entirely in virtual reality.Emergent Systems
 
