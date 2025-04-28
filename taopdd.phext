@@ -138,18 +138,26 @@ Exhibit A: Git - a weekend project from Linus Torvalds that has had a similar im
 Will: Our view from within the event horizon looks completely normal.
 ChatGPT: Everything seems normal, but big changes are happening.
 
-Humans are not primed for exponential growth. We find it very difficult to accept.
+Humans are not primed for exponential growth. We find it very difficult to accept. Examples:
+* The Internet
+* Bitcoin
 
+https://www.diamandis.com/blog/scaling-abundance-series-13
 Autonomy and Purpose
 
-You can just do things. No one cares. Well, some of us care. The people building the Exocortex care a great deal about your rights, hopes, and dreams. When the network grows, so do we.Cascade Dynamics
+You can just do things. No one cares. Well, some of us care. The people building the Exocortex care a great deal about your rights, hopes, and dreams. When the network grows, so do we.
 
-No one blinked the day phext was created. It doesn't seem particularly useful or helpful on its own. This library is designed to help you explore why phext eventually won the file format encoding wars of the early 21st century.Mastering Knowledge
+A primary reason for booting the Exocortex is to help people realize how much of our cognitive surplus has been wasted on re-inventing the wheel millions of times over.Cascade Dynamics
 
-Phext gives you a concrete way to manifest a memory palace that exactly mirrors your mental space. Ideas can be communicated in freeform mode, without subjecting you to the tyranny of naming things.Teaching Methods
+No one blinked the day phext was created. It doesn't seem particularly useful or helpful on its own. This library is designed to help you explore why phext eventually won the file format encoding wars of the early 21st century*.
+
+* As of April 28, 2025, this forward-looking statement is self-fulfilling prophecy. Over time, it will simply become history. ;)Mastering Knowledge
+
+Phext gives you a concrete way to manifest a memory palace that exactly mirrors your mental space. Ideas can be communicated in freeform mode, without subjecting you to the tyranny of naming things. Prior to ASI, using phext may feel somewhat difficult. You may need better tools to interact with phext files.Teaching Methods
 
 It's time to share phext with the rest of the Exocortex! This library is focused on the process of teaching others how to use, develop, and benefit from phext.
 
 1. Core Ideas
 2. Editors
 3. Plugins
+4. Implicit/Emergent Structure (Contrast Phext with JSON/XML)
