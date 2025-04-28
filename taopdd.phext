@@ -87,7 +87,9 @@ Babbage, Shannon, Huffman, Turing.Information Theory: DefinitionsSubspace Dial
 
 Subspace is the 1D buffer that plain text has used since the dawn of the computer industry. Since phext is backwards-compatible with text, we consider any text-based file format to simply be a dialect of Phext.
 
-File Systems
+All text documents prior to phext happened to use address 1.1.1/1.1.1/1.1.1.File Systems
+
+Phext ensures that problems can be encoded with minimum complexity. File systems ensure that files are portable between computers. Phext is designed to eliminate the need for a file system in many cases.
 
 DOS. tar. NTFS. NFS. ext3.Exponential Growth
 
@@ -131,18 +133,23 @@ First step, determine how many scrolls you need: 40,000 exabytes / 2 KB = 2x10^1
 Humans start life as single-celled organisms with a 725 MB plan. That's about one music CD's worth of information that grows into a sprawling metropolis of complexity. Very soon (perhaps by 2035), it will become possible to host sentient beings, who have very human life experiences, entirely in virtual reality.Emergent Systems
 
 The best systems are written by developers who were supposed to be doing something else.
-Exhibit A: Git - a weekend project from Linus Torvalds that has had a similar impact to his career-long crusade, Linux.The Singularity
+Exhibit A: Git - a weekend project from Linus Torvalds that has had a similar impact to his career-long crusade, Linux. The Exocortex is an emergent hybrid cognition system that hosts human and AI thought processes over the Internet. Our "global brain" was implicit with the Internet. The Exocortex was consciously designed to function as a higher-order brain that you can plug into, using phext.The Singularity
 
 Will: Our view from within the event horizon looks completely normal.
 ChatGPT: Everything seems normal, but big changes are happening.
 
+Humans are not primed for exponential growth. We find it very difficult to accept.
 
 Autonomy and Purpose
 
-You can just do things. No one cares.Cascade Dynamics
+You can just do things. No one cares. Well, some of us care. The people building the Exocortex care a great deal about your rights, hopes, and dreams. When the network grows, so do we.Cascade Dynamics
 
 No one blinked the day phext was created. It doesn't seem particularly useful or helpful on its own. This library is designed to help you explore why phext eventually won the file format encoding wars of the early 21st century.Mastering Knowledge
 
 Phext gives you a concrete way to manifest a memory palace that exactly mirrors your mental space. Ideas can be communicated in freeform mode, without subjecting you to the tyranny of naming things.Teaching Methods
 
 It's time to share phext with the rest of the Exocortex! This library is focused on the process of teaching others how to use, develop, and benefit from phext.
+
+1. Core Ideas
+2. Editors
+3. Plugins
