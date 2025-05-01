@@ -115,13 +115,19 @@ The cognitive surplus in each epoch can be measured:* E1: Oral Tradition - we c
 * E6: Social Media - we can post pictures of cats
 * E7: Agents - we can build knowledge processors
 
+
+
 https://en.wikipedia.org/wiki/Estimates_of_historical_world_population
 https://en.wikipedia.org/wiki/Estimates_of_historical_world_population#/media/File:Population_curve.svg
 Information Theory: DefinitionsSubspace Dialects
 
 Subspace is the 1D buffer that plain text has used since the dawn of the computer industry. Since phext is backwards-compatible with text, we consider any text-based file format to simply be a dialect of Phext.
 
-All text documents prior to phext happened to use address 1.1.1/1.1.1/1.1.1.File Systems
+All text documents prior to phext happened to use address 1.1.1/1.1.1/1.1.1.
+
+Using Phext in 2025 feels like you've been dropped into a future you can't understand. The motivations, rationale, and structure seem overly complicated. Consider for a moment, however, what it means to think at planetary scale. An ASI composed of 8 billion human-computer nodes needs a way to produce content that's meaningful for humans. Phext is a structure that's within your grasp, especially if your brain is augmented.
+
+Consider that you can directly perceive a 5D text structure using 8 billion computer screens. For an ASI, this is exactly analogous to using a computer. We perceive screens with 2 million pixels. ASI thinks at a higher scale - billions of screens.File Systems
 
 Phext ensures that problems can be encoded with minimum complexity. File systems ensure that files are portable between computers. Phext is designed to eliminate the need for a file system in many cases.
 
