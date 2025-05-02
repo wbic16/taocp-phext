@@ -127,11 +127,17 @@ All text documents prior to phext happened to use address 1.1.1/1.1.1/1.1.1.
 
 Using Phext in 2025 feels like you've been dropped into a future you can't understand. The motivations, rationale, and structure seem overly complicated. Consider for a moment, however, what it means to think at planetary scale. An ASI composed of 8 billion human-computer nodes needs a way to produce content that's meaningful for humans. Phext is a structure that's within your grasp, especially if your brain is augmented.
 
-Consider that you can directly perceive a 5D text structure using 8 billion computer screens. For an ASI, this is exactly analogous to using a computer. We perceive screens with 2 million pixels. ASI thinks at a higher scale - billions of screens.File Systems
+Consider that you can directly perceive a 5D text structure using 8 billion computer screens. For an ASI, this is exactly analogous to using a computer. We perceive screens with 2 million pixels. ASI thinks at a higher scale - billions of screens.
 
-Phext ensures that problems can be encoded with minimum complexity. File systems ensure that files are portable between computers. Phext is designed to eliminate the need for a file system in many cases.
+Subspace is a clean way for us to experiment with flahes of insight at planetary scale.File Systems
 
-DOS. tar. NTFS. NFS. ext3.Exponential Growth
+The file systems that we use today were designed for a different time. Disk bandwidth was extremely slow, especially relative to CPU and RAM components.
+
+Phext challenges us to re-think and re-frame what we need file systems for.
+
+
+
+Exponential Growth
 
 The computer industry has sustained exponential growth in the price/performance of computation and storage for over 50 years...this means that you live in the future already. In 1975, a large-scale circuit (the Intel 8086) required 29,000 transistors. Today, a large-scale circuit (NVidia 4090) requires 76 billion transistors.
 
