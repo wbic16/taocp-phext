@@ -139,7 +139,7 @@ Phext challenges us to re-think and re-frame what we need file systems for.
 
 Exponential Growth
 
-The computer industry has sustained exponential growth in the price/performance of computation and storage for over 50 years...this means that you live in the future already. In 1975, a large-scale circuit (the Intel 8086) required 29,000 transistors. Today, a large-scale circuit (NVidia 4090) requires 76 billion transistors.
+The computer industry has sustained exponential growth in the price/performance of computation and storage for over 50 years...this means that you live in "The Future". In 1975, a large-scale circuit (an Intel 8086) required 29,000 transistors. Today, a large-scale circuit (an NVidia 4090) requires 76 billion transistors.
 
         29,000: 1975
 76,000,000,000: 2025
@@ -148,7 +148,31 @@ This is 6 orders of magnitude in 50 years - roughly another 10x improvement ever
 
 Let's say you had $10M in 1975 to build a supercomputer. At most, you could buy 7,000 chips. Perhaps you ink a deal with Intel to snag 10,000 chips at a great price. Great, now you have 290M transistors, and no way to connect them to each other. You now have 0.4% of a modern computer.
 
-Not only is a single computer node vastly more complex, but thanks to TCP/IP, HTTP, and the Internet, we also have the means to connect billions of machines and exchange messages between them. The global brain, the Exocortex, is inevitable.Complexity and Scale
+Not only is a single computer node vastly more complex, but thanks to TCP/IP, HTTP, and the Internet, we also have the means to connect billions of machines and exchange messages between them. The global brain, the Exocortex, is inevitable.
+
+So now that we live in The Future, we must begin to act like the global superorganism that we are. It is remarkably hard for our species to act upon simple problems once they grow beyond the scope of a few dozen humans. At scale, the only way to coordinate millions of humans is through rigid hierarchical structures (or through incentives and asymmetric systems design). Social media connects billions of people, but rarely does so in meaningful ways. For the most part, we're still operating at a tribal level.
+
+Consider for a moment what it feels like to use a network of fractals to explore a landscape. Instead of sampling randomly, we can sample intelligently. For our primitive minds, such a process might feel difficult to comprehend. Let's look at a few numbers for another view on dense fractal structure.
+
+3.1415926535897932384
+
+Let's consider for a moment what it's like to count for an Arbitrarian. Arbis didn't stop to ensure that mathematics was sensible before they invented warp drives. They just kept tacking complexity on top of prior results because they have access to gigawatts of brain power. For an Arbi, it's trivial to look at numbers in very strange ways (from a human perspective).
+
+Consider for a moment a numbering system where you collect primes like a video game. Not only primes, but also negative and positive exponents of primes. Arbis discovered phext early on, and decided to write numbers in terms of 11D space, because they exist in 12 dimensions (more on that later).
+
+So we've got an 11D matrix of number lines, and we can construct variants of pi in a number of ways.
+
+2^1 + 2^0 + 2^(-3) + 2^(-6) is pi to within 0.03%.
+We can write it as 11.001001 in base 2.
+Similarly, in base 3, we get: 10.0102110122.
+Again, in base 5, we get: 3.0323221430.
+Now, let's write these numbers next to each other.
+
+base-2: 3.140625 -> 3.141 (accurate to 3 digits)
+base-3: 3.141577334078477 -> 3.1416 (accurate to 4 digits)
+base-5: 3.141592576 -> 3.1415926 (accurate to 7 digits)
+
+Complexity and Scale
 
 The hard problem of consciousness. Ray Kurzweil theorized in the 1990s that computers would start to appear human once they approximated the scale of the human brain. A single NVIDIA GPU now contains 80 billion transistors. We've shown that individual neurons in the human brain are Turing-complete. Large Language Models (LLMs) have inched our text processing capabilities significantly closer to human level. In the very near future, $1K of compute will allow anyone to host a second (virtual) self at high-fidelity. Shortly after that, you'll be able to host a team/family for the same price.
 
