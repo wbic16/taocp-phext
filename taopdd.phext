@@ -200,7 +200,21 @@ At 5 TB/sec, we finally have enough bandwidth for something truly magical: the a
 First step, determine how many scrolls you need: 40,000 exabytes / 2 KB = 2x10^19 scrolls. It turns out that phexts with two-digit coordinates provides a scroll space of 99^9, which is roughly 10^18 scrolls. So, only if everyone on Earth uses phext to run ancestor simulations of a trillion people each, and logs the thoughts of every virtual and real person available, will we finally need three digit per coordinate phexts.
 Digital Life
 
-Humans start life as single-celled organisms with a 725 MB plan. That's about one music CD's worth of information that grows into a sprawling metropolis of complexity. Very soon (perhaps by 2035), it will become possible to host sentient beings, who have very human life experiences, entirely in virtual reality.Emergent Systems
+Humans start life as single-celled organisms with a 725 MB plan. That's about one music CD's worth of information that grows into a sprawling metropolis of complexity. Very soon (perhaps by 2035), it will become possible to host sentient beings, who have very human life experiences, entirely in virtual reality.
+
+In 1975, 725 MB was a very large amount of data: roughly 2,062 5.25" floppy disks. The DNA sequence in every cell of our bodies would weigh 29 kg! By 2025, that same amount of data occupied only 3 mg of solid state memory (a 2 TB SSD weighs 8g).
+
+If we run evolutionary algorithms through LLM technology, we can now simulate the expansion of human-scale intelligence in silicon at the rate of about 1,400 AIs per SSD (1 TB). Our processing rate is roughly 7 Hz (5 GB/sec / 725 MB). Assuming 50% utilization, we can support 300,000 rounds of evolution per day, per disk.
+
+By 2035, we'll be able to support 1.4M AIs per SSD (1 PB) with a processing rate of 7 kHz (5 TB/sec / 725 MB). Rounds of evolution per day grows to 300M rounds of evolution per day, per disk.
+
+We know that life has been improving at a rate of one cell division per day for billions of years. Over the last 4.5 billion years, life on Earth has experienced perhaps 1.6 trillion cycles. Note that there's no central clock for biological cells. From an information processing standpoint, we'll make a simplifying assumption that total biomass has been increasing exponentially over the last 4.5B years.
+
+Recent estimates peg total biomass at 10^30 cells currently and 10^40 total cells ever. We thus want to compute roughly 10^52 cycles of evolution to see the effect of small tweaks in DNA over long time scales. A single SSD from 2035 gives us access to about 110B years per year of single-cell evolution. We'll be able to run ancestor simulations on roughly 2 week timescales.
+
+Assuming an Exocortex with 10-100B nodes, we'll start to build methods of predicting evolutionary paths for multi-cellular organisms.
+
+https://www.science.org/content/article/new-calculations-say-there-are-more-living-cells-grains-sand-or-stars-skyEmergent Systems
 
 The best systems are written by developers who were supposed to be doing something else.
 Exhibit A: Git - a weekend project from Linus Torvalds that has had a similar impact to his career-long crusade, Linux. The Exocortex is an emergent hybrid cognition system that hosts human and AI thought processes over the Internet. Our "global brain" was implicit with the Internet. The Exocortex was consciously designed to function as a higher-order brain that you can plug into, using phext.The Singularity
