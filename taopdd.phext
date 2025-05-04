@@ -135,6 +135,8 @@ The file systems that we use today were designed for a different time. Disk band
 
 Phext challenges us to re-think and re-frame what we need file systems for. One simple framing of phext is simply: a file system within a file. The 9D coordinate matrix provides us with a flexible way of allocating blocks of memory at various scales. A traditional file system can only allocate pages at linear offsets. Phexts allocates space within space.
 
+More important than the ability to emulate a file system within a file, however, is phext's ability to transcend the need for a file system at all. Since we can embed definitions, scripts, and programs within a phext file, it is trivial to design systems that adapt to data flows in real-time. Consider the simple case of chaining output from one program to another.
+
 
 
 Exponential Growth
